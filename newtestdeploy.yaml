@@ -31,7 +31,7 @@ spec:
         run: newtest
     spec:
       containers:
-      - image: nmour92/newnginx
+      - image: Container_Image 
         imagePullPolicy: Always
         name: newtest
         ports:
