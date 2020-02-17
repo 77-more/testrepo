@@ -31,7 +31,7 @@ spec:
         run: newtest
     spec:
       containers:
-      - image: Container_Image 
+      - image: CONTAINER_IMAGE
         imagePullPolicy: Always
         name: newtest
         ports:
